@@ -1,4 +1,6 @@
 # Editor configuration, see https://editorconfig.org
+# normativa para el trabajo en equipo, haciendo que todos los entornos de trabajo se configuren con las mismas reglas
+# espaciado etc...
 root = true
 
 [*]
