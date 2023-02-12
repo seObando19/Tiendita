@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Mis Productos</h1>
+  <br>
+  <div class="products--grid">
+    <div *ngFor="let item of arrProducts">
+      <img src={{item.image}} alt="">
+      <h2>{{ item.name }}</h2>
+      <p>{{ item.price }}</p>
+    </div>
+  </div>
+</div>
